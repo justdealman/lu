@@ -1,0 +1,969 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Лужайка</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=1120, user-scalable=yes">
+	<!--<link href="./favicon.ico" rel="shortcut icon">-->
+	<link href="./css/style.css" rel="stylesheet">
+	<script src="./js/jquery.js"></script>
+	<!--[if IE 8]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="./js/ie8.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="wrapper">
+		<div class="panel">
+			<p class="reg"><a href="#">Регистрация</a></p>
+			<p class="lk-open"><span>Личный кабинет</span></p>
+			<ul class="lk-drop">
+				<li><a href="#" data-open="login">Вход</a></li>
+				<li><a href="#">Регистрация</a></li>
+				<li><a href="#">Личный кабинет</a></li>
+				<li><a href="#">Корзина</a></li>
+				<li><a href="#">Мои заказы</a></li>
+			</ul>
+		</div>
+		<header>
+			<img src="./img/logo.png" width="184" height="53" class="logo" alt="">
+			<p class="slogan">Оптово-розничный магазин натуральных товаров от лучших эко-производителей России<br> и зарубежья</p>
+			<ul class="phones">
+				<li><a href="+780055007058">8 800 550-07-058</a></li>
+				<li><a href="+79235600705">8 923 560-07-05</a></li>
+			</ul>
+			<p class="call"><a href="#">Заказать звонок</a></p>
+			<div class="basket">
+				<p><a href="#">В корзине</a> 2 товара<br> на сумму <strong>14 968</strong> руб.</p>
+				<p><a href="#">Товаров для сравнения:</a> 0</p>
+			</div>
+		</header>
+		<div class="menu">
+			<nav>
+				<ul>
+					<li><a href="#">Главная</a></li>
+					<li class="active">
+						<a href="#">Каталог</a>
+						<div class="grid">
+							<div>
+								<ul>
+									<li>
+										<h5><span><img src="./img/submenu-icon-1.png" width="21" height="23" alt=""></span><a href="#">Чаи и сборы</a></h5>
+										<p><a href="#">Имбирные чаи</a></p>
+										<p><a href="#">Сухие бальзамы</a></p>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-2.png" width="14" height="20" alt=""></span><a href="#">Напитки</a></h5>
+										<p><a href="#">Киселя</a></p>
+										<p><a href="#">Растворимые напитки</a></p>
+										<p><a href="#">Кофейные напитки</a></p>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-3.png" width="15" height="27" alt=""></span><a href="#">Бальзамы и сиропы</a></h5>
+										<p><a href="#">Для мужчин</a></p>
+										<p><a href="#">Для женщин</a></p>
+										<p><a href="#">Для детей</a></p>
+										<p><a href="#">Для похудения</a></p>
+										<p><a href="#">Для сердца</a></p>
+										<p><a href="#">Для почек</a></p>
+										<p><a href="#">Для печени</a></p>
+										<p><a href="#">Для суставов</a></p>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-4.png" width="18" height="20" alt=""></span><a href="#">Функциональное питание</a></h5>
+										<p><a href="#">Каши</a></p>
+										<p><a href="#">Мука</a></p>
+										<p><a href="#">Крупа</a></p>
+										<p><a href="#">Масла холодного отжима</a></p>
+										<p><a href="#">Хлебцы</a></p>
+										<p><a href="#">Кедровое молоко</a></p>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-5.png" width="20" height="20" alt=""></span><a href="#">Изделия из шерсти</a></h5>
+										<p><a href="#">Носки</a></p>
+										<p><a href="#">Гольфы</a></p>
+										<p><a href="#">Варежки, перчатки</a></p>
+										<p><a href="#">Шапки</a></p>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-6.png" width="17" height="18" alt=""></span><a href="#">Подарочные наборы</a></h5>
+										<p><a href="#">Для мужчин</a></p>
+										<p><a href="#">Для женщин</a></p>
+										<p><a href="#">Общеукрепляющие</a></p>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-7.png" width="10" height="22" alt=""></span><a href="#">Мумие, живица, каменное масло</a></h5>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-8.png" width="22" height="19" alt=""></span><a href="#">Продукция пчеловодства</a></h5>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-9.png" width="21" height="23" alt=""></span><a href="#">Кондитерские изделия</a></h5>
+									</li>
+									<li>
+										<h5><span><img src="./img/submenu-icon-10.png" width="32" height="22" alt=""></span><a href="#">Пантовая продукция</a></h5>
+									</li>
+									<li>
+										<h5><a href="#">Натуральная косметика</a></h5>
+										<p><a href="#">Скрабы</a></p>
+										<p><a href="#">Бальзамы для волос</a></p>
+									</li>
+								</ul>
+								<div class="item-e">
+									<p class="tag sale">акция</p>
+									<div class="pic">
+										<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+									</div>
+									<div class="core">
+										<h3><a href="#">Мумие 30 гр.</a></h3>
+										<p class="price old"><s>270</s> <em>С</em></p>
+										<p class="price">320 <em>С</em></p>
+										<div class="quantity-e">
+											<em class="minus"></em>
+											<input type="text" value="10">
+											<em class="plus"></em>
+										</div>
+										<button>Купить</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li><a href="#">О магазине</a></li>
+					<li>
+						<a href="#">Информация</a>
+						<div class="inline">
+							<ul>
+								<li><a href="#">Как купить</a></li>
+								<li><a href="#">Доставка и оплата</a></li>
+								<li><a href="#">Поставщикам</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Статьи</a></li>
+							</ul>
+						</div>
+					</li>
+					<li><a href="#">Оптовикам</a></li>
+					<li><a href="#">Сертификаты</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="basket">
+				<p><a href="#">В корзине</a> 2 товара</p>
+				<p>на сумму <strong>14 968</strong> руб.</p>
+			</div>
+			<div class="search">
+				<input type="text">
+			</div>
+		</div>
+		<ul class="breadcrumbs">
+			<li><a href="#">Главная</a></li>
+			<li><a href="#">Каталог</a></li>
+			<li>Натуральная кометика</li>
+		</ul>
+		<div class="catalog-i">
+			<div>
+				<div class="lc">
+					<h2>Каталог</h2>
+					<ul class="nav">
+						<li>
+							<a href="#">Чаи и сборы</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Напитки</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Для мужчин</a></li>
+									<li><a href="#"><span>Для женщин</a></li>
+									<li><a href="#"><span>Для детей</a></li>
+									<li><a href="#"><span>Для похудения</a></li>
+									<li><a href="#"><span>Для сердца</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Бальзамы и сиропы</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Функциональное питание</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Изделия из шерсти</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Мумие, живица, каменное масло</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Продукция пчеловодства</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Кондитерские изделия</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Пантовая продукция</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="active">
+							<a href="#">Натуральная косметика</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="#">Подарочные наборы</a>
+							<div>
+								<ul>
+									<li><a href="#"><span>Sub</a></li>
+								</ul>
+							</div>
+						</li>
+					</ul>
+					<div class="subscribe">
+						<h3>Подпишись, будь в курсе и не пропусти!</h3>
+						<p>Новости, ограниченные предложения, акции, новинки, обзоры!</p>
+						<input type="text" placeholder="Введите Ваш E-mail">
+						<h6><label><input type="checkbox">С политикой <a href="#">конфиденциальности</a> сайта согласен!</label></h6>
+						<button>Подписаться</button>
+					</div>
+					<div class="guarantees">
+						<h3>Гарантируем</h3>
+						<ul>
+							<li><span><img src="./img/guarantees-icon-1.png" width="35" height="50" alt=""></span>Доступные<br> цены</li>
+							<li><span><img src="./img/guarantees-icon-2.png" width="38" height="38" alt=""></span>Высокое<br> качество</li>
+							<li><span><img src="./img/guarantees-icon-3.png" width="43" height="40" alt=""></span>Помощь<br> в подборе</li>
+							<li><span><img src="./img/guarantees-icon-4.png" width="42" height="48" alt=""></span>Экологичные материалы<br> и сырье</li>
+						</ul>
+					</div>
+					<div class="reviews">
+						<h3>Отзывы</h3>
+						<ul>
+							<li>
+								<p>Я благодарю судьбу, что узнала о бальзаме «Десятисил Алтайский...</p>
+								<h5><strong>Галина Архипова</strong> г. Барнаул</h5>
+							</li>
+							<li>
+								<p>Классные товары, похудела, счастлива!</p>
+								<h5><strong>Света Кабанова</strong> г. Владивосток</h5>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="rc">
+					<section class="main-i">
+						<h1>Натуральная косметика</h1>
+						<ul class="sub-categories">
+							<li><a href="#">Шампуни</a></li>
+							<li><a href="#">Бальзамы</a></li>
+							<li class="active"><a href="#">Скрабы</a></li>
+							<li><a href="#">Маски</a></li>
+							<li><a href="#">Гель</a></li>
+							<li><a href="#">Лосьоны</a></li>
+							<li><a href="#">Пена для ванны</a></li>
+						</ul>
+						<div class="helpful">
+							<h4>Знаете ли вы?</h4>
+							<p><a href="#">Что такое “натуральный”?</a></p>
+							<p><a href="#">Какого размера должны быть частички в скрабе?</a></p>
+						</div>
+						<div class="filter-t">
+							<p>По типу товара</p>
+							<select>
+								<option>Все</option>
+								<option>Не все</option>
+							<select>
+							<select>
+								<option>Все</option>
+								<option>Не все</option>
+							<select>
+							<ul>
+								<li><span>По цене</span></li>
+								<li><span>По популярности</span></li>
+							</ul>
+						</div>
+						<ul class="list-b">
+							<li class="item-e">
+								<p class="tag hit">хит продаж</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Живица кедровая с мумие</a></h3>
+									<p class="price old"><s>1 700</s> <em>С</em></p>
+									<p class="price">1 500 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag sale">акция</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Мумие 30 гр.</a></h3>
+									<p class="price old"><s>270</s> <em>С</em></p>
+									<p class="price">320 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+									<p class="price old"><s>32</s> <em>С</em></p>
+									<p class="price">30 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+									<p class="price old"><s>320</s> <em>С</em></p>
+									<p class="price">270 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag hit">хит продаж</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Живица кедровая с мумие</a></h3>
+									<p class="price old"><s>1 700</s> <em>С</em></p>
+									<p class="price">1 500 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag sale">акция</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Мумие 30 гр.</a></h3>
+									<p class="price old"><s>270</s> <em>С</em></p>
+									<p class="price">320 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+									<p class="price old"><s>32</s> <em>С</em></p>
+									<p class="price">30 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+									<p class="price old"><s>320</s> <em>С</em></p>
+									<p class="price">270 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag hit">хит продаж</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Живица кедровая с мумие</a></h3>
+									<p class="price old"><s>1 700</s> <em>С</em></p>
+									<p class="price">1 500 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag sale">акция</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Мумие 30 гр.</a></h3>
+									<p class="price old"><s>270</s> <em>С</em></p>
+									<p class="price">320 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+									<p class="price old"><s>32</s> <em>С</em></p>
+									<p class="price">30 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+									<p class="price old"><s>320</s> <em>С</em></p>
+									<p class="price">270 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag hit">хит продаж</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Живица кедровая с мумие</a></h3>
+									<p class="price old"><s>1 700</s> <em>С</em></p>
+									<p class="price">1 500 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag sale">акция</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Мумие 30 гр.</a></h3>
+									<p class="price old"><s>270</s> <em>С</em></p>
+									<p class="price">320 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+									<p class="price old"><s>32</s> <em>С</em></p>
+									<p class="price">30 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+							<li class="item-e">
+								<p class="tag new">новинка</p>
+								<div class="pic">
+									<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+								</div>
+								<div class="core">
+									<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+									<p class="price old"><s>320</s> <em>С</em></p>
+									<p class="price">270 <em>С</em></p>
+									<div class="quantity-e">
+										<em class="minus"></em>
+										<input type="text" value="10">
+										<em class="plus"></em>
+									</div>
+									<button>Купить</button>
+								</div>
+							</li>
+						</ul>
+						<ul class="pages-b">
+							<li><a href="#" class="first"></a></li>
+							<li><a href="#" class="prev">Назад</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li class="active"><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#" class="next">Вперед</a></li>
+							<li><a href="#" class="last"></a></li>
+						</ul>
+					</section>
+				</div>
+			</div>
+		</div>
+		<div class="context-b">
+			<h2>Возможно, вас это заинтересует:</h2>
+			<ul>
+				<li class="item-e">
+					<p class="tag hit">хит продаж</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Живица кедровая с мумие</a></h3>
+						<p class="price old"><s>1 700</s> <em>С</em></p>
+						<p class="price">1 500 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+							</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag sale">акция</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Мумие 30 гр.</a></h3>
+						<p class="price old"><s>270</s> <em>С</em></p>
+						<p class="price">320 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+						<p class="price old"><s>32</s> <em>С</em></p>
+						<p class="price">30 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+						<p class="price old"><s>320</s> <em>С</em></p>
+						<p class="price">270 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag hit">хит продаж</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Живица кедровая с мумие</a></h3>
+						<p class="price old"><s>1 700</s> <em>С</em></p>
+						<p class="price">1 500 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+							</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag sale">акция</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Мумие 30 гр.</a></h3>
+						<p class="price old"><s>270</s> <em>С</em></p>
+						<p class="price">320 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+						<p class="price old"><s>32</s> <em>С</em></p>
+						<p class="price">30 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+						<p class="price old"><s>320</s> <em>С</em></p>
+						<p class="price">270 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+			</ul>
+			<h2>Вы недавно смотрели:</h2>
+			<ul>
+				<li class="item-e">
+					<p class="tag hit">хит продаж</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Живица кедровая с мумие</a></h3>
+						<p class="price old"><s>1 700</s> <em>С</em></p>
+						<p class="price">1 500 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+							</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag sale">акция</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Мумие 30 гр.</a></h3>
+						<p class="price old"><s>270</s> <em>С</em></p>
+						<p class="price">320 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+						<p class="price old"><s>32</s> <em>С</em></p>
+						<p class="price">30 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+						<p class="price old"><s>320</s> <em>С</em></p>
+						<p class="price">270 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag hit">хит продаж</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-1.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Живица кедровая с мумие</a></h3>
+						<p class="price old"><s>1 700</s> <em>С</em></p>
+						<p class="price">1 500 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+							</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag sale">акция</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-2.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Мумие 30 гр.</a></h3>
+						<p class="price old"><s>270</s> <em>С</em></p>
+						<p class="price">320 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-3.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Носки из верблюжьей шерсти детские</a></h3>
+						<p class="price old"><s>32</s> <em>С</em></p>
+						<p class="price">30 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+				<li class="item-e">
+					<p class="tag new">новинка</p>
+					<div class="pic">
+						<a href="#"><img src="./pic/catalog-4.jpg" width="162" height="112" alt=""></a>
+					</div>
+					<div class="core">
+						<h3><a href="#">Наколенники из верблюжьей шерсти темные (2 штуки)</a></h3>
+						<p class="price old"><s>320</s> <em>С</em></p>
+						<p class="price">270 <em>С</em></p>
+						<div class="quantity-e">
+							<em class="minus"></em>
+							<input type="text" value="10">
+							<em class="plus"></em>
+						</div>
+						<button>Купить</button>
+					</div>
+				</li>
+			</ul>
+			<div>
+				<p>Косметика Горного Алтая создана на основе сырья, собранного в чистейших в экологическом плане местах Алтая - природных заповедниках края.</p>
+				<p>У нас вы сможете приобрести продукцию самого высокого качества, в исключительных целебных свойствах которого можно в скором времени убедиться лично. Использовать ее рекомендуется при лечении и в качестве профилактики больштинства заболеваний. В их числе БАДы, бальзамы, сиропы, мед Алтая с продуктами пчеловодства, косметика горного Алтая, эфирные масла, сувениры и фитопродукты.</p>
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<footer>
+		<div class="delivery">
+			<h2>Доставка в любой регион РФ</h2>
+			<ul>
+				<li>
+					<img src="./img/delivery-icon-1.png" width="65" height="61" alt="">
+					<p>«Почта России»</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-2.png" width="53" height="61" alt="">
+					<p>ТК «КИТ»</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-3.png" width="117" height="61" alt="">
+					<p>ТК «Деловые<br> линии»</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-4.png" width="24" height="61" alt="">
+					<p>Пункт выдачи<br> DPD</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-5.png" width="137" height="61" alt="">
+					<p>ТК «Энергия»</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-6.png" width="63" height="61" alt="">
+					<p>ТК «ПЭК»</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-7.png" width="98" height="61" alt="">
+					<p>ТК «Ратэк»</p>
+				</li>
+				<li>
+					<img src="./img/delivery-icon-8.png" width="39" height="61" alt="">
+					<p>ТК «ЖелДор<br> Экспедиция»</p>
+				</li>
+			</ul>
+		</div>
+		<p class="copy">ООО «Адмирал» 2013-2015 ©Лужайка</p>
+		<div class="phones">
+			<ul>
+				<li><a href="+780055007058">8 800 550-07-058</a></li>
+				<li><a href="+79235600705">8 923 560-07-05</a></li>
+			</ul>
+			<p><a href="#">Заказать звонок</a></p>
+		</div>
+		<p class="author">Разработка сайта — <a href="http://letsrock.pro" target="_blank"><img src="./img/letsrock-logo.png" width="89" height="20" alt=""></a></p>
+	</footer>
+	<div class="fade"></div>
+	<div class="modal" data-target="login">
+		<h3>Авторизация</h3>
+		<div class="form">
+			<!--<p class="complete"><span>Электронная почта *</span><input type="text"></p>-->
+			<p class="complete"><span>Электронная почта *</span><input type="text" value="fruktobaron@gmail.com"></p>
+			<p class="error"><span>Пароль *</span><input type="text"></p>
+			<h6>* Поля, обязательные к заполнению</h6>
+			<h5><a href="#">Забыли пароль</a><a href="#">Регистрация</a></h5>
+			<button>Войти</button>
+			<!--<h6 class="error">Заполните, пожалуйста, все поля</h6>-->
+		</div>
+	</div>
+	<div class="go-top">
+		<p>Наверх</p>
+	</div>
+	<script src="./js/easing.js"></script>
+	<script src="./js/jcarousel.js"></script>
+	<script src="./js/mobile.js"></script>
+	<script src="./js/slides.js"></script>
+	<script src="./js/uniform.js"></script>
+	<script src="./js/dynamic.js"></script>
+</body>
+</html>
